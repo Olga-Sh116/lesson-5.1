@@ -22,7 +22,26 @@ class Warrior():
         print(f"{self.name} гуляет")
 
     def info(self):
-        print(f"имя воина{self.name}")
-        print(f"цвет волос воина {self.hair_color}")
-        print(f"сила воина{self.power}")
-        print(f"выносливость воина{self.endurance}")
+        print(f"имя воина - {self.name}")
+        print(f"цвет волос воина - {self.hair_color}")
+        print(f"сила воина - {self.power}")
+        print(f"выносливость воина - {self.endurance}")
+
+
+war1 = Warrior("Александр", 76,54, "коричневый")
+war2 = Warrior("Аким", 45,78, "чёрный")
+
+
+war1.sleep()
+war1.eat()
+war1.hit()
+war1.walk()
+war1.info()
+
+war2.sleep()
+war2.eat()
+war2.hit()
+war2.walk()
+war2.info()
+
+
